@@ -13,3 +13,14 @@ https://github.com/littlecodersh/ItChat
 
 # 5.效果圖
 ![示例](https://github.com/gongel/QQ2WeChat/blob/master/%E7%A4%BA%E4%BE%8B.png)
+
+# 6.其他问题
+## error
+![ERROR](https://github.com/gongel/QQ2WeChat/blob/master/ERROR.png)
+
+## solution
+   修改/usr/lib64/python2.7/subprocess.py
+![solution](https://github.com/gongel/QQ2WeChat/blob/master/subprocess.%20popen%E7%9A%84%E4%BF%AE%E6%94%B9.png)
+
+## ref
+   https://blog.csdn.net/g457499940/article/details/17068277
