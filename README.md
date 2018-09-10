@@ -19,8 +19,9 @@ https://github.com/littlecodersh/ItChat
 ![ERROR](https://github.com/gongel/QQ2WeChat/blob/master/ERROR.png)
 
 ## solution
-   修改/usr/lib64/python2.7/subprocess.py
+   声明Popen对象时初始化shell为True，最好不要修改/usr/lib64/python2.7/subprocess.py（会导致进程失误）
 ![solution](https://github.com/gongel/QQ2WeChat/blob/master/subprocess.%20popen%E7%9A%84%E4%BF%AE%E6%94%B9.png)
 
 ## ref
+   https://blog.csdn.net/zc123456zzc/article/details/48499035
    https://blog.csdn.net/g457499940/article/details/17068277
