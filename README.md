@@ -15,13 +15,13 @@ https://github.com/littlecodersh/ItChat
 ![示例](https://github.com/gongel/QQ2WeChat/blob/master/%E7%A4%BA%E4%BE%8B.png)
 
 # 6.其他问题
-## error
+## Error
 ![ERROR](https://github.com/gongel/QQ2WeChat/blob/master/ERROR.png)
 
-## solution
-   声明Popen对象时初始化shell为True，最好不要修改/usr/lib64/python2.7/subprocess.py（会导致进程失误）
-![solution](https://github.com/gongel/QQ2WeChat/blob/master/subprocess.%20popen%E7%9A%84%E4%BF%AE%E6%94%B9.png)
+## Solution
+   声明Popen对象时初始化shell为True，最好不要修改/usr/lib64/python2.7/subprocess.py（会导致进程失误）<br>
+![solution](https://github.com/gongel/QQ2WeChat/blob/master/solution.png)
 
-## ref
+## Ref
    https://blog.csdn.net/zc123456zzc/article/details/48499035<br>
    https://blog.csdn.net/g457499940/article/details/17068277
