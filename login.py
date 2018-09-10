@@ -174,7 +174,7 @@ def get_QR(self, uuid=None, enableCmdQR=False, picDir=None, qrCallback=None):
     else:
         if enableCmdQR:
             utils.print_cmd_qr(qrCode.text(1), enableCmdQR=enableCmdQR)
-			#else:
+            #else:
             with open(picDir, 'wb') as f:
                 f.write(qrStorage.getvalue())
             utils.print_qr(picDir)
