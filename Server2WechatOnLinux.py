@@ -1,6 +1,7 @@
 import itchat
 import socket
-itchat.auto_login(enableCmdQR=2,picDir=b'C:\Users\Administrator\Pictures\QR.png',hotReload=True)
+#阿里云linux服务器上hotReload只能为False，picDir为微信登录二维码的存储地址，便于发送到邮箱
+itchat.auto_login(enableCmdQR=2,picDir='/root/QR.png',hotReload=False)
 s=socket.socket()
 # host=socket.gethostname()
 port=6969
